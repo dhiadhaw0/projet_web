@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            padding: 15px;
+            text-align: center;
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #333;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgba(51, 51, 51, 1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PAGE D'ACCUEIL</h1>
+    </header>
+    <main>
+        <section>
+            <p>Votre texte ici... (Your text here...)</p>
+        </section>
+        <section>
+            <h2>Latest Projects</h2>
+            <table>
+                <tr>
+                    <th><img src="image00001.png" alt="Project 1"></th>
+                    <th><img src="image00003.png" alt="Project 2"></th>
+                    <th><img src="image00005.png" alt="Project 3"></th>
+                </tr>
+            </table>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="cv2primeee.html">CV</a></li>
+                <li><a href="cv3primeee.html">Portfolio</a></li>
+                <li><a href="cv4primeee.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">NAME:</label>
+                <input type="text" placeholder="Your Name" spellcheck="false">
+                <br>
+                <label for="email">YOUR EMAIL:</label>
+                <input type="email" placeholder="Your Email" spellcheck="false">
+                <br>
+                <label for="message">MESSAGE:</label>
+                <br>
+                <textarea placeholder="Your Message"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 - Esprit</p>
+    </footer>
+</body>
+
+</html>
